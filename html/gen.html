@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+.bg-img {
+  /* The image used */
+  background-image: url("2.jpg");
+  min-height:720px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  /* Needed to position the navbar */
+  position: relative;
+}
+
+
+.container {
+  position: absolute;
+  margin: 20px;
+  width: auto;
+}
+
+/* The navbar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navbar links */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.bg-img {
+  position: relative;
+}
+
+/* Bottom right text */
+.text-block {
+  position: absolute;
+  bottom: 180px;
+  right: 1000px;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+
+
+</style>
+</head>
+<body>
+
+
+
+
+<div class="bg-img">
+  <div class="text-block"> 
+    <h1>Family Center</h1>
+    <h3><i>Where Families Matter</i></h3>
+    <p>The family is one of nature's masterpieces....</p>
+  </div>
+  <div class="container">
+    <div class="topnav">
+      <a href="#your_family">Home</a>
+      <a href="gal.html">Gallery</a>
+      <a href="contact.html">Contact</a>
+      <a href="abt.html">About</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<div class="header">
+  <h1>Gallery with happy family</h1>
+  <p><i>The Family Center offers a wide variety of programs and community based events to families throughout the Valley.</i></p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="C:\Users\VIKU\Desktop\html\sc/a.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/b.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/c.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/g.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/f.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/m.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="C:\Users\VIKU\Desktop\html\sc/d.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/e.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/f.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/n.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/o.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/i.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="C:\Users\VIKU\Desktop\html\sc/g.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/h.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/i.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/p.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/q.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/r.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="C:\Users\VIKU\Desktop\html\sc/j.jpeg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/k.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/l.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/d.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/a.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/e.jpg" style="width:100%">
+    
+  </div>
+</div>
+
+
+
+
+
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Contact Us</h2>
+    <p>Swing by for a cup of coffee, or leave us a message:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="3.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="India">India</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  
+  <div class="card">
+  <img src="C:\Users\VIKU\Desktop\html\sc/lol1.jpg" alt="John" style="width:100%">
+  <h1>Vikash Kumar </h1>
+  <p class="title">CEO & Founder</p>
+  <h2 style="color:red;">Family Center</h2>
+  <p style="color:SlateBlue;"><i>Where Families Matter</i></p>
+  <div style="margin: 24px 0;">
+    <a href="#"><i class="fa fa-dribbble"></i></a> 
+    <a href="https://twitter.com/Noiselesscoder"><i class="fa fa-twitter"></i></a>  
+    <a href="https://www.linkedin.com/in/vikash-kumar-040006166"><i class="fa fa-linkedin"></i></a>  
+    <a href="#"><i class="fa fa-facebook"></i></a> 
+  </div>
+  <p><button>Contact</button></p>
+</div>
+
+  </div>
+</div>
+
+
+
+</body>
+</html>

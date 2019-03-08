@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.button:hover {opacity: 1}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+
+.column {
+  -ms-flex: 25%; 
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  .column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+</style>
+<body>
+
+<button onclick="myFunction()" class="button">Home</button>
+<button onclick="myFunction1()" class="button">About</button>
+
+
+
+
+<script>
+function myFunction() {
+  location.replace("C:/Users/VIKU/Desktop/html/gen.html")
+}
+</script>
+
+<script>
+function myFunction1() {
+  location.replace("C:/Users/VIKU/Desktop/html/abt.html")
+}
+</script>
+
+
+
+
+<!-- Header -->
+<div class="header">
+  <h1>Gallery with happy family</h1>
+  <p><i>The Family Center offers a wide variety of programs and community based events to families throughout the Valley.</i></p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="C:\Users\VIKU\Desktop\html\sc/a.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/b.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/c.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/g.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/f.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/m.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="C:\Users\VIKU\Desktop\html\sc/d.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/e.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/f.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/n.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/o.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/i.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="C:\Users\VIKU\Desktop\html\sc/g.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/h.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/i.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/p.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/q.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/r.jpg" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="C:\Users\VIKU\Desktop\html\sc/j.jpeg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/k.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/l.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/d.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/a.jpg" style="width:100%">
+    <img src="C:\Users\VIKU\Desktop\html\sc/e.jpg" style="width:100%">
+    
+  </div>
+</div>
+
+</body>
+</html>
